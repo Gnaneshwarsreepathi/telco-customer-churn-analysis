@@ -1,0 +1,51 @@
+customer_id,gender,senior_citizen,partner,dependents,contract_type,payment_method,tenure_months,monthly_charges,total_charges,churn_flag,churn_risk,retention_action
+3655-SNQYZ,Female,False,Yes,Yes,Two year,Credit card (automatic),69,113.25,7895.15,False,LOW,Regular engagement
+6467-CHFZW,Male,False,Yes,Yes,Month-to-month,Electronic check,47,99.35,4749.15,True,HIGH,Immediate outreach - offer discount
+6572-ADKRS,Female,False,No,No,Month-to-month,Credit card (automatic),46,74.8,3548.3,False,LOW,Regular engagement
+8168-UQWWF,Female,False,No,No,Month-to-month,Bank transfer (automatic),11,97.85,1105.4,True,HIGH,Immediate outreach - offer discount
+9867-JCZSP,Female,False,Yes,Yes,One year,Mailed check,17,20.75,418.25,False,LOW,Regular engagement
+4080-IIARD,Female,False,Yes,No,Month-to-month,Electronic check,13,76.2,981.45,False,LOW,Regular engagement
+3714-NTNFO,Female,False,No,No,Month-to-month,Electronic check,49,84.5,3906.7,False,LOW,Regular engagement
+7760-OYPDY,Female,False,No,No,Month-to-month,Electronic check,2,80.65,144.15,True,HIGH,Immediate outreach - offer discount
+7639-LIAYI,Male,False,No,No,Two year,Credit card (automatic),52,79.75,4217.8,False,LOW,Regular engagement
+8012-SOUDQ,Female,True,No,No,Month-to-month,Electronic check,43,90.25,3838.75,False,LOW,Regular engagement
+6575-SUVOI,Female,True,Yes,No,Month-to-month,Credit card (automatic),25,69.5,1752.65,False,LOW,Regular engagement
+7495-OOKFY,Female,True,Yes,No,Month-to-month,Credit card (automatic),8,80.65,633.3,True,HIGH,Immediate outreach - offer discount
+1658-BYGOY,Male,True,No,No,Month-to-month,Electronic check,18,95.45,1752.55,True,HIGH,Immediate outreach - offer discount
+8769-KKTPH,Female,False,Yes,Yes,One year,Credit card (automatic),63,99.65,6311.2,False,LOW,Regular engagement
+5067-XJQFU,Male,True,Yes,Yes,One year,Electronic check,66,108.45,7076.35,False,LOW,Regular engagement
+5122-CYFXA,Female,False,No,No,Month-to-month,Electronic check,3,75.3,244.1,False,MEDIUM,Send loyalty reward
+7410-OIEDU,Male,False,No,No,Month-to-month,Mailed check,10,79.85,887.35,False,MEDIUM,Send loyalty reward
+8028-PNXHQ,Male,False,Yes,Yes,Two year,Bank transfer (automatic),62,24.25,1424.6,False,LOW,Regular engagement
+5630-AHZIL,Female,False,No,Yes,Month-to-month,Bank transfer (automatic),3,64.5,177.4,False,MEDIUM,Send loyalty reward
+6416-JNVRK,Female,False,No,No,One year,Credit card (automatic),46,55.65,2688.85,False,LOW,Regular engagement
+5590-ZSKRV,Female,False,Yes,Yes,Month-to-month,Mailed check,8,54.65,482.25,False,MEDIUM,Send loyalty reward
+0191-ZHSKZ,Male,True,No,No,Month-to-month,Electronic check,30,74.75,2111.3,False,LOW,Regular engagement
+3887-PBQAO,Female,False,Yes,Yes,One year,Credit card (automatic),45,25.9,1216.6,False,LOW,Regular engagement
+5919-TMRGD,Female,False,No,Yes,Month-to-month,Electronic check,1,79.35,79.35,True,HIGH,Immediate outreach - offer discount
+8108-UXRQN,Female,False,Yes,Yes,Month-to-month,Electronic check,11,50.55,565.35,False,MEDIUM,Send loyalty reward
+9191-MYQKX,Female,False,Yes,No,Month-to-month,Bank transfer (automatic),7,75.15,496.9,True,HIGH,Immediate outreach - offer discount
+9919-YLNNG,Female,False,No,No,Month-to-month,Bank transfer (automatic),42,103.8,4327.5,False,LOW,Regular engagement
+9848-JQJTX,Male,False,No,No,Two year,Bank transfer (automatic),72,100.9,7459.05,False,LOW,Regular engagement
+8637-XJIVR,Female,False,No,No,Month-to-month,Electronic check,12,78.95,927.35,True,HIGH,Immediate outreach - offer discount
+9803-FTJCG,Male,False,Yes,Yes,One year,Credit card (automatic),71,66.85,4748.7,False,LOW,Regular engagement
+0278-YXOOG,Male,False,No,No,Month-to-month,Mailed check,5,21.05,113.85,True,HIGH,Immediate outreach - offer discount
+3212-KXOCR,Male,False,No,No,Two year,Bank transfer (automatic),52,21.0,1107.2,False,LOW,Regular engagement
+6380-ARCEH,Male,False,No,No,Month-to-month,Mailed check,1,20.2,20.2,False,MEDIUM,Send loyalty reward
+3679-XASPY,Female,False,Yes,Yes,Month-to-month,Electronic check,1,19.45,19.45,False,MEDIUM,Send loyalty reward
+5386-THSLQ,Female,True,Yes,No,One year,Bank transfer (automatic),66,45.55,3027.25,False,LOW,Regular engagement
+3192-NQECA,Male,False,Yes,No,Two year,Bank transfer (automatic),68,110.0,7611.85,True,HIGH,Immediate outreach - offer discount
+6728-DKUCO,Female,False,Yes,Yes,One year,Electronic check,72,104.15,7303.05,False,LOW,Regular engagement
+9750-BOOHV,Female,False,No,No,One year,Mailed check,32,30.15,927.65,False,LOW,Regular engagement
+8597-CWYHH,Male,False,No,No,One year,Mailed check,43,94.35,3921.3,False,LOW,Regular engagement
+2848-YXSMW,Male,False,Yes,Yes,Two year,Credit card (automatic),72,19.4,1363.25,False,LOW,Regular engagement
+0486-HECZI,Male,False,Yes,No,Month-to-month,Electronic check,55,96.75,5238.9,True,HIGH,Immediate outreach - offer discount
+5712-AHQNN,Female,False,No,No,Month-to-month,Electronic check,43,91.65,3954.1,False,LOW,Regular engagement
+5256-SKJGO,Female,False,Yes,Yes,Two year,Electronic check,64,54.6,3423.5,False,LOW,Regular engagement
+5299-RULOA,Female,False,Yes,Yes,Month-to-month,Electronic check,10,100.25,1064.65,True,HIGH,Immediate outreach - offer discount
+9445-ZUEQE,Male,False,Yes,Yes,Month-to-month,Credit card (automatic),27,85.2,2151.6,False,LOW,Regular engagement
+1091-SOZGA,Female,False,Yes,Yes,One year,Credit card (automatic),56,99.8,5515.45,False,LOW,Regular engagement
+2928-HLDBA,Female,False,No,No,Month-to-month,Mailed check,6,20.7,112.75,False,MEDIUM,Send loyalty reward
+0404-SWRVG,Male,False,No,No,Month-to-month,Electronic check,3,74.4,229.55,True,HIGH,Immediate outreach - offer discount
+6497-TILVL,Female,False,Yes,Yes,Month-to-month,Mailed check,7,50.7,350.35,False,MEDIUM,Send loyalty reward
+7219-TLZHO,Female,False,Yes,Yes,Month-to-month,Mailed check,4,20.85,62.9,False,MEDIUM,Send loyalty reward
