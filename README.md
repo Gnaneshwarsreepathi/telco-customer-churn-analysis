@@ -185,22 +185,22 @@ telco-customer-churn-analysis/
 
 ## 🧠 Learning Outcomes
 
-* Built end-to-end data analytics pipeline
-* Designed star schema data model
-* Performed data transformation using SQL & Python
-* Developed interactive Power BI dashboards
-* Integrated CRM (Salesforce) with analytics
-* Delivered business-focused insights
+- Built end-to-end data analytics pipeline  
+- Designed star schema data model  
+- Performed data transformation using SQL & Python  
+- Developed interactive Power BI dashboards  
+- Integrated CRM (Salesforce) with analytics  
+- Delivered business-focused insights  
 
 ---
 
 ## 👨‍💻 Author
 
-**Gnaneshwar Sreepati**
-Aspiring Data Analyst | Power BI | SQL | Python
+**Gnaneshwar Sreepati**  
+Aspiring Data Analyst | Power BI | SQL | Python  
 
 ---
 
-## ⭐ If you like this project
+## ⭐ Support
 
-Give it a ⭐ on GitHub!
+If you like this project, consider giving it a ⭐ on GitHub!
