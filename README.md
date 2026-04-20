@@ -183,6 +183,7 @@ telco-customer-churn-analysis/
 
 ---
 
+```markdown
 ## 🧠 Learning Outcomes
 
 - Built end-to-end data analytics pipeline  
@@ -192,15 +193,12 @@ telco-customer-churn-analysis/
 - Integrated CRM (Salesforce) with analytics  
 - Delivered business-focused insights  
 
----
-
 ## 👨‍💻 Author
 
 **Gnaneshwar Sreepati**  
 Aspiring Data Analyst | Power BI | SQL | Python  
 
----
-
 ## ⭐ Support
 
+If you like this project, consider giving it a ⭐ on GitHub!
 If you like this project, consider giving it a ⭐ on GitHub!
