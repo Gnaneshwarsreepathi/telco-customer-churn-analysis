@@ -183,7 +183,6 @@ telco-customer-churn-analysis/
 
 ---
 
-```markdown
 ## 🧠 Learning Outcomes
 
 - Built end-to-end data analytics pipeline  
@@ -200,5 +199,4 @@ Aspiring Data Analyst | Power BI | SQL | Python
 
 ## ⭐ Support
 
-If you like this project, consider giving it a ⭐ on GitHub!
 If you like this project, consider giving it a ⭐ on GitHub!
