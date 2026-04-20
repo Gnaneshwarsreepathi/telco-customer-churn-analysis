@@ -168,14 +168,17 @@ telco-customer-churn-analysis/
 
 ## 📸 Dashboard Previews
 
-(Add your screenshots here)
+### Executive Overview
+![Executive Overview](docs/images/executive_overview.png)
 
-```
-docs/images/executive_overview.png
-docs/images/churn_analysis.png
-docs/images/revenue_insights.png
-docs/images/crm_dashboard.png
-docs/images/crm/
+### Churn Analysis
+![Churn Analysis](docs/images/churn_analysis.png)
+
+### Revenue Insights
+![Revenue Insights](docs/images/revenue_insights.png)
+
+### CRM Risk Dashboard
+![CRM Dashboard](docs/images/crm_dashboard.png)
 ```
 
 ---
