@@ -179,7 +179,7 @@ telco-customer-churn-analysis/
 
 ### CRM Risk Dashboard
 ![CRM Dashboard](docs/images/crm_dashboard.png)
-```
+
 
 ## 🧠 Learning Outcomes
 
