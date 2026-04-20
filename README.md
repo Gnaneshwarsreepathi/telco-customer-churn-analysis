@@ -4,7 +4,7 @@
 
 This project presents an end-to-end data analytics solution to analyze customer churn in a telecom business and evaluate its impact on revenue and sales pipeline.
 
-It integrates **Salesforce CRM data**, SQL-based data modeling, Python data processing, and Power BI dashboards to generate actionable business insights.
+The solution integrates **Salesforce CRM**, SQL-based data modeling, Python data processing, and Power BI dashboards to generate actionable business insights.
 
 ---
 
@@ -20,143 +20,184 @@ It integrates **Salesforce CRM data**, SQL-based data modeling, Python data proc
 
 ## 🏗️ Project Architecture
 
-```
-Raw Dataset (CSV)
-        ↓
-SQL Server (Star Schema)
-        ↓
-Python (ETL + Data Enrichment)
-        ↓
-Salesforce CRM Integration
-        ↓
-Power BI Dashboards
-```
+### 🔹 Data Sources
+
+* Telecom Customer Dataset (Excel/CSV)
+* Salesforce CRM (Accounts, Opportunities)
+
+### 🔹 Data Processing Workflow
+
+1. Raw data imported into SQL Server (SSMS)
+2. Data cleaned and transformed using SQL & Python
+3. Data modeled into **Star Schema**
+4. Power BI connected to SQL Server and CRM
+5. Interactive dashboards built for insights
 
 ---
 
-## 🔗 Data Sources
+## 🧱 Data Modeling (SQL - Star Schema)
 
-* Telco Customer Churn Dataset (CSV)
-* Salesforce CRM
-
-  * Accounts
-  * Opportunities
-  * Lead Source data
-
----
-
-## 🧱 Data Model
-
-### Dimension Tables
-
-* `dim_customer`
-* `dim_service`
-* `dim_contract`
-
-### Fact Table
+### Fact Table:
 
 * `fact_customer_metrics`
 
-### CRM / Enriched Data
+  * tenure_months
+  * monthly_charges
+  * total_charges
+  * churn_flag
 
-* `crm_enriched_data`
+### Dimension Tables:
+
+* `dim_customer` → customer details
+* `dim_contract` → contract & payment info
+* `dim_service` → services used
+
+### Staging Table:
+
+* `stg_telco_churn` → raw dataset
 
 ---
 
-## ⚙️ Technologies Used
+## ⚙️ Tools & Technologies
 
-* Python (Pandas, NumPy)
 * SQL Server (SSMS)
+* Python (Pandas, NumPy)
 * Power BI
 * Salesforce CRM
-* Data Modeling (Star Schema)
+* GitHub
+
+---
+
+## 📈 Power BI Dashboards
+
+### 1️⃣ Executive Overview Dashboard
+
+* Churn Rate %
+* Total Customers
+* Churned Customers
+* Revenue at Risk
+* Avg Tenure
+* Monthly Revenue
+
+---
+
+### 2️⃣ Churn Analysis Dashboard
+
+* Churn by Payment Method
+* Churn by Internet Service
+* Churn by Senior Citizen
+* Churn by Gender
+* Contract Type Filters
+
+---
+
+### 3️⃣ Revenue Insights Dashboard
+
+* Total Revenue
+* Revenue at Risk
+* Average Tenure
+* Revenue by Contract Type
+* Revenue by Payment Method
+
+---
+
+### 4️⃣ CRM Risk Dashboard
+
+* Total Deals
+* Won Deals
+* Pipeline Revenue
+* Expected Revenue
+* Deals by Stage
+* Revenue by Lead Source
+* Funnel Analysis
+
+---
+
+## 🔗 CRM Integration (Salesforce)
+
+This project integrates **Salesforce CRM** with Power BI to combine customer churn insights with sales pipeline data.
+
+### Data Extracted from CRM:
+
+* Customer Accounts
+* Opportunity Data (Sales Pipeline)
+* Lead Sources
+
+### Integration Steps:
+
+1. Connected Salesforce to Power BI using native connector
+2. Imported CRM tables (Accounts, Opportunities)
+3. Combined CRM data with churn dataset
+4. Built dashboards for pipeline risk analysis
+
+### Business Value:
+
+* Identify revenue risk due to churn
+* Analyze sales pipeline performance
+* Enable data-driven CRM decisions
 
 ---
 
 ## 📊 Key Insights
 
-* 📉 Churn Rate: **26.54%**
-* ⚠️ Month-to-month contracts have highest churn (**42%+**)
-* 💰 Revenue at Risk: **€139K**
-* 👥 New customers and low-tenure users churn more
-* 💸 Higher monthly charges correlate with higher churn
-* 📊 External referrals generate highest CRM revenue
+* Month-to-month contracts have highest churn rate
+* Electronic check users show higher churn behavior
+* Fiber optic users show higher churn compared to DSL
+* High churn directly impacts revenue pipeline
+* CRM integration helps track revenue risk in sales funnel
 
 ---
 
-## 📈 Dashboards
-
-### 🔹 Executive Overview
-
-![Executive Overview](docs/images/executive_overview.png)
-
----
-
-### 🔹 Churn Analysis Dashboard
-
-![Churn Analysis](docs/images/churn_analysis.png)
-
----
-
-### 🔹 Revenue Insights Dashboard
-
-![Revenue Insights](docs/images/revenue_insights.png)
-
----
-
-### 🔹 CRM Risk Dashboard
-
-![CRM Dashboard](docs/images/crm_dashboard.png)
-
----
-
-## 📊 Key Metrics (DAX)
-
-* **Total Revenue**
-* **Total Customers**
-* **Churn Rate (%)**
-* **Revenue at Risk**
-* **Average Tenure**
-* **Total Deals (CRM)**
-* **Won Deals**
-* **Pipeline Revenue**
-* **Expected Revenue**
-
----
-
-## 🧠 Key Features
-
-* End-to-end data pipeline
-* Star schema data modeling
-* Salesforce CRM data integration
-* Customer segmentation and churn analysis
-* Sales pipeline and deal stage analysis
-* Revenue risk identification
-
----
-
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```
-data/
-notebooks/
-scripts/
-dashboards/
-docs/images/
-README.md
+telco-customer-churn-analysis/
+│
+├── dashboards/           # Power BI (.pbix) files
+├── data/processed/       # Cleaned datasets
+├── dataset/              # Raw dataset
+├── docs/images/          # Dashboard & CRM screenshots
+├── notebooks/            # Python analysis notebooks
+├── scripts/              # SQL & Python scripts
+├── SSMS/                 # SQL queries & schema
+├── README.md
+└── .gitignore
 ```
 
 ---
 
-## 📌 Future Improvements
+## 📸 Dashboard Previews
 
-* Real-time Salesforce API integration
-* Machine learning model for churn prediction
-* Automated data refresh pipeline
-* Advanced customer segmentation
+(Add your screenshots here)
+
+```
+docs/images/executive_overview.png
+docs/images/churn_analysis.png
+docs/images/revenue_insights.png
+docs/images/crm_dashboard.png
+docs/images/crm/
+```
+
+---
+
+## 🧠 Learning Outcomes
+
+* Built end-to-end data analytics pipeline
+* Designed star schema data model
+* Performed data transformation using SQL & Python
+* Developed interactive Power BI dashboards
+* Integrated CRM (Salesforce) with analytics
+* Delivered business-focused insights
 
 ---
 
 ## 👨‍💻 Author
 
-**Gnaneshwar Sreepathi**
+**Gnaneshwar Sreepati**
+Aspiring Data Analyst | Power BI | SQL | Python
+
+---
+
+## ⭐ If you like this project
+
+Give it a ⭐ on GitHub!
