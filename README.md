@@ -1,23 +1,20 @@
-# 📊 SaaS Customer Churn Analytics Project
+# 📊 Telco Customer Churn Analytics with CRM Integration
 
 ## 🚀 Overview
 
-This project analyzes customer churn behavior in a telecom/SaaS business and provides insights into customer retention, revenue risk, and sales pipeline performance.
+This project presents an end-to-end data analytics solution to analyze customer churn in a telecom business and evaluate its impact on revenue and sales pipeline.
 
-It demonstrates an **end-to-end data analytics pipeline** using:
-
-* SQL (data modeling)
-* Python (ETL + EDA)
-* Power BI (dashboarding)
+It integrates **Salesforce CRM data**, SQL-based data modeling, Python data processing, and Power BI dashboards to generate actionable business insights.
 
 ---
 
 ## 🎯 Business Objectives
 
 * Identify customers likely to churn
-* Analyze revenue impact due to churn
+* Analyze revenue at risk due to churn
 * Understand customer behavior patterns
-* Provide actionable insights for CRM teams
+* Evaluate sales pipeline performance
+* Support CRM-driven decision making
 
 ---
 
@@ -26,14 +23,25 @@ It demonstrates an **end-to-end data analytics pipeline** using:
 ```
 Raw Dataset (CSV)
         ↓
-SQL Server (Star Schema Model)
+SQL Server (Star Schema)
         ↓
-Python ETL & Data Enrichment
+Python (ETL + Data Enrichment)
         ↓
-CRM Enriched Dataset
+Salesforce CRM Integration
         ↓
 Power BI Dashboards
 ```
+
+---
+
+## 🔗 Data Sources
+
+* Telco Customer Churn Dataset (CSV)
+* Salesforce CRM
+
+  * Accounts
+  * Opportunities
+  * Lead Source data
 
 ---
 
@@ -49,7 +57,7 @@ Power BI Dashboards
 
 * `fact_customer_metrics`
 
-### Enriched Dataset
+### CRM / Enriched Data
 
 * `crm_enriched_data`
 
@@ -58,8 +66,9 @@ Power BI Dashboards
 ## ⚙️ Technologies Used
 
 * Python (Pandas, NumPy)
-* SQL Server
+* SQL Server (SSMS)
 * Power BI
+* Salesforce CRM
 * Data Modeling (Star Schema)
 
 ---
@@ -69,8 +78,9 @@ Power BI Dashboards
 * 📉 Churn Rate: **26.54%**
 * ⚠️ Month-to-month contracts have highest churn (**42%+**)
 * 💰 Revenue at Risk: **€139K**
-* 👥 New & short-tenure customers churn more
-* 💸 Higher monthly charges correlate with churn
+* 👥 New customers and low-tenure users churn more
+* 💸 Higher monthly charges correlate with higher churn
+* 📊 External referrals generate highest CRM revenue
 
 ---
 
@@ -100,13 +110,28 @@ Power BI Dashboards
 
 ---
 
+## 📊 Key Metrics (DAX)
+
+* **Total Revenue**
+* **Total Customers**
+* **Churn Rate (%)**
+* **Revenue at Risk**
+* **Average Tenure**
+* **Total Deals (CRM)**
+* **Won Deals**
+* **Pipeline Revenue**
+* **Expected Revenue**
+
+---
+
 ## 🧠 Key Features
 
-* End-to-end analytics pipeline
+* End-to-end data pipeline
 * Star schema data modeling
-* KPI tracking (Churn, Revenue, Risk)
-* Customer segmentation
-* CRM-ready insights
+* Salesforce CRM data integration
+* Customer segmentation and churn analysis
+* Sales pipeline and deal stage analysis
+* Revenue risk identification
 
 ---
 
@@ -125,9 +150,10 @@ README.md
 
 ## 📌 Future Improvements
 
-* Machine learning churn prediction model
-* Real-time data pipeline integration
-* Salesforce live integration
+* Real-time Salesforce API integration
+* Machine learning model for churn prediction
+* Automated data refresh pipeline
+* Advanced customer segmentation
 
 ---
 
